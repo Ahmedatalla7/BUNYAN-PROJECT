@@ -17,7 +17,7 @@ function Dashboard() {
   const [hasDraft, setHasDraft] = useState(false);
   return (
     <>
-      <Navbar adminName="wesam" />
+      <Navbar adminName="Ahmed" />
       <div className="d-flex">
          <Sidebar hasDraft={hasDraft} />
         {/* <Sidebar /> */}

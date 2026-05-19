@@ -20,7 +20,7 @@ function Dashboard() {
       <Navbar adminName="Ahmed" />
       <div className="d-flex">
          <Sidebar hasDraft={hasDraft} />
-        {/* <Sidebar /> */}
+      
         <main className="flex-grow-1">
           <Routes>
             <Route path="/" element={<StatusPage />} />
